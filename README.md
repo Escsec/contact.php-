@@ -1,5 +1,5 @@
 # contact.php
-#uses
+| uses
 * contact forms
 * portfolio
 * personal webs
