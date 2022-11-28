@@ -1,3 +1,4 @@
+<? php
 $to = 'yourmail@yourdomain.ltd';
 $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
 $from = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
@@ -15,3 +16,5 @@ if (filter_var($from, FILTER_VALIDATE_EMAIL)) {
 } else {
     die('Invalid address');
 }
+
+?>
